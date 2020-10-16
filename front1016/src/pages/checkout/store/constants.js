@@ -1,0 +1,26 @@
+export const TEST = 'test';
+export const CAL_POSTAGE = 'CAL_POSTAGE';
+export const POST_MATCH_SUBURB = 'POST_MATCH_SUBURB';
+export const SET_PICKUP_MOOD = 'SET_PICKUP_MOOD';
+export const SET_DELIVERY_MOOD = 'SET_DELIVERY_MOOD';
+export const CHANGE_ADDRESS='CHANGE_ADDRESS';
+export const NO_POSTAGE = 'NO_POSTAGE';
+export const EMPTY_PAYMENT_DISPLAY = 'EMPTY_PAYMENT_DISPLAY';
+export const SET_STATE = 'SET_STATE';
+export const SET_SUBURB = 'SET_SUBURB';
+export const SET_FORMVALUE = 'SET_FORMVALUE';
+export const READY_PAY = 'READY_PAY';
+export const EMPTY_READY_PAY = 'EMPTY_READY_PAY';
+export const CHANGE_STATUS = 'CHANGE_STATUS';
+export const SET_TEXTAREA = 'SET_TEXTAREA';
+export const SET_PAY_CASH = 'SET_PAY_CASH';
+export const SET_PAY_ONLINE = 'SET_PAY_ONLINE';
+export const EVOKE_CART_DATA = 'EVOKE_CART_DATA';
+export const USER_INFO = 'USER_INFO';
+export const CHANGE_POSTCODE = 'CHANGE_POSTCODE';
+export const ADDRESS_CLICK = 'ADDRESS_CLICK';
+export const GET_CHECKOUT_IMAGES = 'GET_CHECKOUT_IMAGES';
+export const SUBMIT_REQUEST = 'SUBMIT_REQUEST';
+export const SET_FORMVALUE_BY_CLICK = 'SET_FORMVALUE_BY_CLICK';
+
+

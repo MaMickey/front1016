@@ -1,0 +1,26 @@
+.loginWrapper{
+    overflow:hidden;
+    width:80%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.logHint{
+    color: #FA2A00;
+}
+.loginFooter{
+    height:80px;
+}
+.veriCodeWrapper{
+    width:400px;
+}
+.veriCode{
+    margin: 5px;
+}
+.checkText{
+    margin-left: 4px;
+}
+.clickEye{
+    cursor: pointer;
+}

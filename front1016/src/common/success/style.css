@@ -1,0 +1,29 @@
+.SuccOrderWrapper{
+    overflow:hidden;
+    width:80%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.SuccOrdertitle{
+    font-size: 24px;
+    color: #45b39d;
+    text-align: center;
+}
+.SuccOrderbody{
+    border: 2px solid rgba(80, 126, 238, 0.5);
+    background: #f5f5f5e7;
+    width:30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+.SuccOrderbtn{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.SuccOrdersection{
+    height: 100px;
+}

@@ -1,0 +1,4 @@
+export const GET_ORDER_DETAIL ='GET_ORDER_DETAIL';
+export const CHANGE_STATUS = 'CHANGE_STATUS';
+export const ORDER_CHECK = 'ORDER_CHECK';
+export const CLEAR_ORDER_CHECK = 'CLEAR_ORDER_CHECK';

@@ -1,0 +1,96 @@
+.detailWrap{
+    overflow:hidden;
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.detailLoaderWrap{
+    width:100%;
+    text-align: center
+}
+.detailLoader{
+    display: inline-block;
+}
+.theImgWrap{
+    padding:20px;
+}
+.detailImgs{
+    margin-top: 5px;
+    padding: 20px;
+}
+.detailImgInfo{
+    width:100%;
+}
+.addCartBtn{
+    border-color: #5499c7 !important;
+    color:#5499c7 !important;
+}
+.addCartBtn:hover{
+    color: #fff !important;
+    background-color: #1650e0 !important;
+    border-color: #154cd4 !important;
+}
+.Dcontainer img, .Dcontainer div, .Dcontainer table {
+    /* -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); */
+    object-fit: contain !important;
+    width:95% !important;
+    margin: 0 auto !important;
+    height: auto !important;
+}
+
+.addSuccess{
+    position:fixed;
+    right:30px;
+    top:79px;
+    z-index: 300;
+    height:150px;
+    padding-top: 4px;
+    /* display: none; */
+    
+} 
+.SuccessTitle{
+    font-size: 0.8rem;
+    text-align: left;
+    overflow : hidden !important;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;   
+    -webkit-box-orient: vertical;
+}
+.successRow1{
+    height: 100px !important;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.successRow2{
+    height: 30px !important;
+    line-height: 30px;
+    text-align: center;
+    color: #ffc300;
+    font-weight: bold;
+}
+.SuccessQuantity{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color:#5499c7;
+}
+.detailInputQuantity{
+    max-width: 70px !important;
+    flex-basis: 70px !important;
+}
+.detailStock{
+    color:#FE6B4E; 
+    font-weight: bold;
+}
+.outStockHint{
+    color:#FA2A00;
+}
+.descriptionWrapper{
+    padding-top: 10px;
+}

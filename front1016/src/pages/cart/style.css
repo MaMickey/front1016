@@ -1,0 +1,58 @@
+.cartWrapper {
+    overflow:hidden;
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.cartRow{
+    margin-top: -1px;
+    border-radius: 4px 0px 0px 0px !important;
+}
+.addBtnBg{
+    background-color: white;
+}
+.addBtn{
+    border-radius: 4PX !important;
+}
+.delBtn{
+    width:40px !important;
+    text-align: center !important;
+    border-radius: 4PX !important;
+}
+a{
+    text-decoration: none !important;
+}
+.loaderWrapCart{
+    margin:0 auto;
+}
+.cartSmall{
+    object-fit:contain;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.quantityHint{
+    color: #FA2A00;
+}
+.cartInputQuantity{
+    max-width: 70px !important;
+    flex-basis: 70px !important;
+}
+.cartStock{
+    color:#EF6B4E;
+    font-weight: bold;
+}
+.cartStockHint{
+    color: #FA2A00;
+    margin-top: 2px;
+}

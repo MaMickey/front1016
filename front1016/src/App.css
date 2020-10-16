@@ -1,0 +1,13 @@
+.main{
+    padding-bottom: 150px;
+    
+     /* min-height:calc(100vh - 50px); */
+}
+@media (min-width: 1680px) {
+    .container {
+    max-width: 1680px !important; } }
+@media (min-width: 324px) {
+    .main{
+        padding-bottom: 210px;
+    }
+}

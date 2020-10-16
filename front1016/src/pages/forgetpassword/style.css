@@ -1,0 +1,20 @@
+.forgetpwdWrapper{
+    overflow:hidden;
+    width:80%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.verifyCode{
+    width: 60% !important
+}
+.emailLoaderWrap{
+    text-align: center
+}
+.emailLoader{
+    display: inline-block;
+}
+.failEmailHint{
+    color: #FA2A00;
+}

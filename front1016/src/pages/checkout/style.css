@@ -1,0 +1,42 @@
+.checkoutWrapper{
+    overflow:hidden;
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.itemTitle{
+    text-align: center;
+}
+.numberBottom{
+    text-align: right;
+}
+.itemRight{
+    margin-top: -1px;
+    margin-left: -1px;
+}
+.ckeckbox{
+    width:18px;
+    height:18px;
+}
+.confirmBtn{
+  float: right;
+}
+.businessHint{
+    color: #FA2A00;
+    font-size: 0.7rem;
+}
+.loaderWrapCheckout{
+    margin:0 auto;
+}
+.checkoutSmall{
+    object-fit:contain;
+}
+.scroller{
+    height: 350px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin; 
+    overflow-x: hidden;
+}

@@ -1,0 +1,17 @@
+.RegWrapper{
+    overflow:hidden;
+    width:80%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.accHint{
+    color: #FA2A00;
+}
+.regHint{
+   font-size: 14px; 
+}
+.regQuery{
+    font-size: 18px;
+}

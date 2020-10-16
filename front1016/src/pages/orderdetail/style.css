@@ -1,0 +1,38 @@
+.orderdetailWrapper{
+    overflow:hidden;
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.detailText{
+    text-align: center
+}
+.numberText{
+    text-align: right;
+}
+.orderToPay{
+    width:97%;
+    float:right;
+}
+@media print {
+    #theHeader, #theFooter, #orderPay,.print{
+        display: none;
+    }
+    .main, .printHead{
+        display: block;
+    }   
+}
+.print{
+    float: right;
+    font-size: 20px;
+    color: #5499c7;
+    cursor: pointer;
+}
+.printTitle{
+    font-size: 14px;
+}
+.orderStatusRow{
+    background-color: #f5f5f5e7;
+}

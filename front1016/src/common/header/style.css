@@ -1,0 +1,84 @@
+.hearTopPart{
+  background-color: #fff;
+  z-index:100;
+  width: 100%;
+  position: fixed !important;
+  top: 0px;
+}
+.navigationBar{
+  background-color: #f5f5f5e7 !important;
+  margin-top:79px;
+}
+@media (width: 768px){
+.navbar-expand-md {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-top:99px !important;
+}}
+.AfterLoginInfo{
+  text-align: center;
+  font-weight: bold;
+  margin-top:15px;
+  font-size:0.7rem;
+
+}
+.modeBtn{
+  float: right;
+  width:15%;
+  margin-top:8px;
+}
+.button-switcher:focus, .button-switcher:active{
+  outline: none !important;
+}
+.searchArea{
+  float: right;
+  width:85%;
+}
+.dropdown-item.active, .dropdown-item:active {
+  outline: #fff solid 0px;
+}
+.dropdown-item:hover{
+color:#5499c7 !important;
+}
+.dropdownHead{
+cursor: pointer;
+}
+.btn-primary{
+background-color: #5499c7 !important;
+border: #5499c7 1px solid !important;
+}
+.fa-shopping-cart, .fa-heart{
+color: #5499c7 !important;
+}
+.register,.login{
+text-decoration: none !important;
+}
+@media (min-width: 376px) {
+.levelLogo{
+  position: absolute;
+  top: -6px;
+  right: -19px;
+  display: inline-block;
+  padding: .25em .6em;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  border-radius: 3rem;
+  color: #fff;
+  background-color: #FFC300;
+}}
+@media (max-width: 540px) {
+  .levelLogo{
+    position: absolute;
+    top: -5px;
+    right: -11px;
+    display: inline-block;
+    padding: .25em .6em;
+    font-size: 0.8rem;
+    line-height: 1;
+    text-align: center;
+    border-radius: 3rem;
+    color: #fff;
+    background-color: #FFC300;
+  }
+}

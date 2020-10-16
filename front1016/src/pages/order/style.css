@@ -1,0 +1,13 @@
+.orderWrapper{
+    overflow:hidden;
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.OrderSrn{
+    color: #5499c7;
+    font-weight: bold;
+    cursor: pointer;
+}

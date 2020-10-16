@@ -1,0 +1,41 @@
+.AccountWrapper{
+    overflow:hidden;
+    width:80%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.AccHint{
+    color: #FA2A00;
+}
+.del-loader{
+    width:40px;
+    display: inline-block;
+}
+.fontpic{
+    font-size: 80px;
+    text-align: center;
+    line-height: 60px;
+    height: 120px;
+    padding:20px;
+    color: #5499c7;
+}
+.entry{
+    cursor: pointer;
+}
+.changeEmailLoaderWrap{
+    text-align: center
+}
+.changeEmailLoader{
+    display: inline-block;
+}
+.failEmailHint{
+    color: #FA2A00;
+}
+.confirmChanges{
+    width:60% !important;
+}
+.clickEye{
+    cursor: pointer;
+}

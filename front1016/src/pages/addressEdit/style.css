@@ -1,0 +1,11 @@
+.AddAddressWrapper{
+    overflow:hidden;
+    width:80%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.addAddressHint{
+    color:#fa2a00;
+}
